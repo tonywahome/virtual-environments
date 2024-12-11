@@ -7,4 +7,7 @@ print('')
 #     print('Not wagwan!') 
 
 #Ternaly operator
-print('wagwan') if meaning > 10 else print('Not wagwan')
+if meaning > 10:
+	print('wagwan')
+else:
+	print('Not wagwan')
